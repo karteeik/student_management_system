@@ -1,0 +1,142 @@
+/* Reset some default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page layout */
+body {
+  background-color: #f4f6f8;
+  padding: 30px;
+}
+
+/* Add Student button */
+a[href="add.php"] {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 10px 16px;
+  background-color: #2563eb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  position: relative;
+  left: 45%;
+}
+
+a[href="add.php"]:hover {
+  background-color: #1e4ed8;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Table headers */
+th {
+  background-color: #111827;
+  color: #fff;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Table cells */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Row hover effect */
+tr:hover {
+  background-color: #f1f5f9;
+}
+
+/* Action links */
+td a {
+  margin-right: 8px;
+  padding: 6px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Edit button */
+td a[href*="edit"] {
+  background-color: #22c55e;
+  color: #fff;
+}
+
+td a[href*="edit"]:hover {
+  background-color: #16a34a;
+}
+
+/* Delete button */
+td a[href*="delete"] {
+  background-color: #ef4444;
+  color: #fff;
+}
+
+td a[href*="delete"]:hover {
+  background-color: #dc2626;
+}
+
+/* Center form container */
+form {
+  max-width: 400px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase;
+}
+
+/* Form heading (optional if you add <h2>) */
+form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #111827;
+}
+
+/* Input fields */
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Submit button */
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1e40af;
+}
