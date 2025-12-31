@@ -1,5 +1,5 @@
 CREATE DATABASE studentdata;
-USE student_db;
+USE studentdata;
 CREATE TABLE studentMange (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
